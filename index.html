@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lume Client</title>
+<meta name="description" content="Lume Client: a fast Minecraft: Java Edition client written in Rust.">
+<style>
+  :root { --bg:#0d0b0a; --panel:#17120f; --text:#f3ece6; --dim:#b3a79c; --accent:#ff7a2f; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 64px 20px; }
+  h1 { font-size: 44px; margin: 0 0 4px; letter-spacing: -0.5px; }
+  h1 span { color: var(--accent); }
+  .tag { color: var(--dim); margin: 0 0 40px; font-size: 18px; }
+  section { background: var(--panel); border: 1px solid #2a211b; border-radius: 10px; padding: 20px 24px; margin: 0 0 16px; }
+  h2 { font-size: 18px; margin: 0 0 8px; color: var(--accent); }
+  p, li { color: var(--text); } ul { margin: 0; padding-left: 20px; }
+  footer { color: var(--dim); font-size: 13px; margin-top: 40px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1><span>Lume</span> Client</h1>
+  <p class="tag">A fast Minecraft: Java Edition client written in Rust.</p>
+
+  <section>
+    <h2>What it is</h2>
+    <p>Lume Client is a Minecraft: Java Edition client built in Rust on top of the open-source
+    <a href="https://github.com/horizon-rust/horizon">Horizon</a> engine (MIT). It focuses on
+    performance and on quality-of-life features for players: a customizable HUD, an in-game mod menu,
+    free look, configurable screen scaling and accessibility options.</p>
+  </section>
+
+  <section>
+    <h2>Accounts and ownership</h2>
+    <ul>
+      <li>Players sign in with their own Microsoft account using the official Microsoft device-code flow.</li>
+      <li>The client only plays with accounts that own Minecraft: Java Edition, and joins online-mode servers like the official game.</li>
+      <li>It ships none of Minecraft's code, textures or sounds: they are prepared from the player's own copy of the game.</li>
+      <li>Tokens are stored only on the player's computer, in the operating system's credential store, and are sent only to Microsoft, Xbox Live and Minecraft services.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Status</h2>
+    <p>In development. The first release is being prepared.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>GitHub: <a href="https://github.com/kanove-git">kanove-git</a></p>
+  </section>
+
+  <footer>Lume Client is an unofficial project, not affiliated with, endorsed by or connected to Mojang Studios or Microsoft. Minecraft is a trademark of Mojang and Microsoft.</footer>
+</main>
+</body>
+</html>
